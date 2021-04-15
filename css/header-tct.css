@@ -1,0 +1,105 @@
+.navbar {
+    font-size: 0.9em;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar__content {
+    box-shadow: 0 8px 4px -4px rgb(0 0 0 / 20%);
+}
+
+.ford-logo {
+    background: transparent url(../img/ford-logo.png) no-repeat -200px 0;
+    width: 93px;
+    height: 35px;
+    background-size: 400px 200px;
+    display: inline-block;
+    padding: 0;
+    margin: 6px 0 0 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #0276b3;
+}
+
+
+/* left-list */
+
+.ford-content {
+    overflow: auto;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    max-height: 0;
+}
+
+.open {
+    max-height: 800%;
+    transition: all 0.5s;
+}
+
+.cta-container .cta-wrap {
+    height: 40px;
+    margin: 10px;
+    border-radius: 50px;
+    min-width: 170px;
+    background-color: #0276b3;
+}
+
+.cta-container .cta-wrap:hover {
+    background: #fff;
+}
+
+.cta-container .cta-wrap:hover a {
+    color: #0276b3;
+}
+
+.cta-container .cta-wrap a {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+
+/* right-list */
+
+.right-list {
+    position: relative;
+    z-index: 11;
+}
+
+.right-list .nav-item {
+    font-size: 12px;
+}
+
+.right-list .nav-item .fa {
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.right-list .dropdown-menu {
+    top: 156%;
+    left: 0;
+    z-index: 10;
+    min-width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+    .dropdown-toggle::after {
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+    }
+    .nav-item {
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 991.98px) {
+    .ford-content {
+        position: absolute;
+    }
+    .dropdown-toggle::after {
+        display: none;
+    }
+}

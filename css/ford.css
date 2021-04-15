@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-color: #f7f7f7b0;
+    display: inline-block;
+    width: 100%;
+}
+
+.header1 li {
+    display: inline;
+    margin: 10px;
+}
+
+.header1 ul {
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Raleway';
+}
+
+.header1-right {
+    float: right;
+}
+
+.header1-left {
+    float: left;
+}
+
+.header1 img {
+    max-height: 40px;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.header2 span {
+    background-image: url(../img/ford-logo.png);
+    width: 93px;
+    height: 35px;
+    background-size: 400px 200px;
+}
+
+.header2-right {
+    float: right;
+}
+
+
+/* Dropdown Button */
+
+.footer1 {
+    text-align: center;
+    background-color: #092A46;
+    color: white;
+}
+
+.footer1 .col-12 {
+    padding: 20px;
+}
+
+.footer1 button:hover {
+    color: #166999;
+    background-color: white;
+}
+
+.footer1 button {
+    padding: 12px 27px;
+    color: white;
+    font-weight: normal;
+    border: none;
+    /* border: 1px solid white; */
+    background-color: #166999;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.footer2 {
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+.footer2 input {
+    background-color: #333;
+    color: white;
+    border: unset;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 32px 0px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.footer2 i {
+    float: left;
+    font-size: 2rem;
+    padding: 32px 20px;
+}
+
+.col-6 span {
+    font-weight: 500;
+    margin: 20px;
+}
+
+.footer2 ul {
+    float: right;
+    display: inline-block;
+    margin: 0px;
+}
+
+.footer2 li {
+    display: inline-block;
+    padding: 38px 5px;
+}
+
+.footer3 {
+    background-color: rgb(48, 44, 44);
+    color: white;
+}
+
+.footer3 .row {
+    justify-content: space-around;
+}
+
+.footer3 li {
+    list-style: none;
+}
+
+.footer3 a:hover {
+    color: white;
+}
+
+.footer3 a {
+    color: rgb(117, 117, 117);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.footer4 {
+    background-color: #102b4e;
+}
+
+.footer4left {
+    float: left;
+    font-size: 1.2rem;
+    padding: 32px 20px;
+}
+
+.footer4left i {
+    padding: 5px;
+}
+
+.footer4right {
+    float: right;
+}
+
+.footer4right i {
+    font-size: 3rem;
+    padding: 22px 20px;
+}
+
+.footer4right span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 20px 0px;
+}
+
+.footer5 {
+    background-color: white;
+}
+
+.footer5 ul {
+    padding: unset;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer5 li {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.footer5 :hover {
+    color: #166999;
+}
+
+.footer5 a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(70, 67, 67);
+    margin: 3px;
+    display: block;
+}
+
+.dropdown1:hover .suv {
+    display: block;
+}
+
+.suv {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.dropdown2:hover .trucks {
+    display: block;
+}
+
+.trucks {
+    display: none;
+}
+
+.dropdown3:hover .ELECTRIFIED {
+    display: block;
+}
+
+.ELECTRIFIED {
+    display: none;
+}
+
+.dropdown4:hover .CARS {
+    display: block;
+}
+
+.CARS {
+    display: none;
+}
